@@ -1,17 +1,16 @@
-
 import './App.css';
 import Navbar from './navbar_comp/Navbar';
-import Carousel from './body/Carousel'
-import Section1 from './body/sections/section1'
+import Carousel from './body/sections/Carousel';
+import AllSection from './body/sections/allSection';
+import Section2 from './body/sections/section2';
 
 export default function App() {
-return(
+  return (
     <>
-    <Navbar/>
-    <Carousel/>
-    <Section1/>
+      <Navbar />
+      <Carousel />
+      <AllSection />
+      {/* <Section2 /> */}
     </>
-);
+  );
 }
-
-
