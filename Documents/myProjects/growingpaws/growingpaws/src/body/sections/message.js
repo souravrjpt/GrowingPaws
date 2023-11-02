@@ -5,7 +5,6 @@ import { messagecss } from '../../cssfiles/message.css';
 import { video } from '../videos/video';
 export default function Meassage() {
   return (
-   
     <div className="content" >
       <div className="container content-container">
         <div className="card text-center m-5">
